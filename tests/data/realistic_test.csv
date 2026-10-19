@@ -1,0 +1,53 @@
+text,category,type
+"I forgot my password and the reset email never arrives, I've tried 3 times already",ACCOUNT,long
+"pls delete everything u have about me, i dont want an account anymore",ACCOUNT,colloquial
+"how do i change the email adress on my profile",ACCOUNT,typo
+"Can I switch from my personal account to a business one? We're a small company now",ACCOUNT,long
+"cant log in",ACCOUNT,short
+"If I cancel now, will I have to pay something extra?",CANCEL,no_keyword
+"is there a penalty for cancelling the order before it ships?",CANCEL,no_keyword
+"how much does it cost to cancel",CANCEL,short
+"I was charged 15 euros just for cancelling!! why??",CANCEL,ambiguous
+"I want to talk to a real person, not a bot",CONTACT,no_keyword
+"whats ur phone number",CONTACT,colloquial
+"Is there any way to reach someone today? I've been waiting for an answer to my email since Monday",CONTACT,long
+"hello??",CONTACT,ambiguous
+"do you ship to Belgium?",DELIVERY,no_keyword
+"How long does it usually take for a package to arrive in Rotterdam?",DELIVERY,long
+"Is express shipping available, I need it before saturday for a birthday",DELIVERY,long
+"what are my options for getting the parcel delivered to a pickup point",DELIVERY,no_keyword
+"This is the third time my order arrives damaged. Honestly I'm done with your shop.",FEEDBACK,angry
+"Just wanted to say the customer service lady yesterday was super helpful, thanks!",FEEDBACK,no_keyword
+"your website is so slow and confusing, terrible experience",FEEDBACK,angry
+"where can i leave a review for the product i bought",FEEDBACK,colloquial
+"I want to file a formal complaint about one of your delivery drivers",FEEDBACK,ambiguous
+"I need a receipt for my last purchase for my company's expenses",INVOICE,no_keyword
+"can you send me the bill for order 48213 again? i lost the email",INVOICE,no_keyword
+"The VAT number on my invoice is wrong, can it be corrected?",INVOICE,long
+"where do i find my invoices from last year",INVOICE,colloquial
+"I ordered 2 of the same jacket by mistake, please cancel one of them",ORDER,ambiguous
+"where is my package?? ordered 10 days ago, order nr 77120",ORDER,angry
+"Can I add another item to my order before it ships?",ORDER,long
+"i want to buy the blue sneakers in size 42 but the website gives an error at checkout",ORDER,ambiguous
+"change the size in my order from M to L pls",ORDER,colloquial
+"My card was declined but I have enough money on it",PAYMENT,no_keyword
+"Do you accept iDEAL?",PAYMENT,no_keyword
+"can i pay with paypal or only credit card",PAYMENT,colloquial
+"I got charged twice for the same order!!!",PAYMENT,angry
+"klarna payment not working",PAYMENT,short
+"I sent the shoes back 2 weeks ago, where is my money?",REFUND,no_keyword
+"Can I get my money back if the item doesn't fit?",REFUND,no_keyword
+"how long until the refund shows up on my account",REFUND,colloquial
+"returned a broken lamp, still nothing back. this is ridiculous",REFUND,angry
+"I moved last week, can you send my order to my new address instead?",SHIPPING,long
+"wrong street name in my delivery details, please fix before it ships",SHIPPING,no_keyword
+"how do i add a second address to my account for work deliveries",SHIPPING,ambiguous
+"pls update adress to Kerkstraat 12, Utrecht",SHIPPING,typo
+"stop sending me emails every day",SUBSCRIPTION,no_keyword
+"how do I unsubscribe from your marketing emails",SUBSCRIPTION,colloquial
+"I'd like to get notified about your sales, how do I sign up?",SUBSCRIPTION,no_keyword
+"Please change my address and also cancel the second order I placed yesterday",SHIPPING,multi_intent
+"The package arrived broken and I want my money back",REFUND,multi_intent
+"I need my invoice and also want to know when my refund comes",INVOICE,multi_intent
+"the UI of the website is confusing and the checkout process is broken",FEEDBACK,multi_intent 
+
